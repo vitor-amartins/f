@@ -1,0 +1,43 @@
+.question-component {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+.title-container {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.answers-container {
+    flex-direction: column;
+}
+
+.answer-item {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #15193C;
+    border-radius: 2px;
+    border: none;
+}
+
+.answer-item.selected {
+    background: #005B5B;
+}
+
+.label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 8px 16px;
+    color: #FFFFFF;
+}

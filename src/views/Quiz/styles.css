@@ -1,0 +1,116 @@
+.containerQuiz {
+  flex: 1;
+  background-color: #111433;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerQuiz .ant-card-body{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  flex: 1;
+}
+
+.headerContainerQuiz {
+  padding-top: 14px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #36349A;
+}
+
+.headerContentQuiz {
+  font-family: "Montserrat", sans-serif;
+  color: #b8f9f9;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.progressBarContent-Question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 0 16px;
+}
+
+.progressBarLine-Question {
+  flex: 1;
+  margin-left: 8px;
+}
+
+.progressBarLine-Question .ant-progress-bg {
+  border-radius: 24px;
+}
+
+.progressBarLabel-Question {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.buttonsContent-Question .ant-btn:hover {
+  background: transparent;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+.buttonsContent-Question{
+  width: 100%;
+  padding: 0 16px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.buttonsContent-Question .ant-btn {
+  all: unset;
+}
+
+.backButton-Question, .nextButton-Question{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #00B7B7;
+  cursor: pointer;
+  padding: 16px 0;
+}
+
+.backButton-Question{
+  opacity: 0.6;
+}
+
+.backButton-Question > label, .nextButton-Question > label{
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+
+.finishButton-Question{
+  cursor: pointer;
+  background-color: #00B7B7;
+  color: #111433;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 8px 12px;
+  margin: 8px 0px;
+  border-radius: 4px;
+}
+
+.footerContent-Question {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footerContent-Question .ant-btn[disabled], .ant-btn[disabled]:hover, .ant-btn[disabled]:focus, .ant-btn[disabled]:active {
+  background: none !important;
+  cursor: not-allowed;
+}

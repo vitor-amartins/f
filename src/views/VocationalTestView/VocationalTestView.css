@@ -1,0 +1,14 @@
+.vocationalTest {
+  background: transparent;
+  width: 100%;
+}
+  
+.header {
+  background: transparent;
+  color: #B8F9F9;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #15193C;
+  padding: 10px 0px;
+}

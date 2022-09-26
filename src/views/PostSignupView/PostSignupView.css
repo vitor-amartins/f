@@ -1,0 +1,60 @@
+  .logoImage {
+    margin-bottom: 28px;
+  }
+
+  .postSignupView {
+    border-collapse: collapse;
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .title {
+    color: #B8F9F9;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .default {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+  .bolded {
+    color: #726FFF;
+    font-weight: bold;
+  }
+
+  div.buttonContainer {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    width: 100%;
+    background-color: #00B7B7;
+    color: #111433;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+  }
